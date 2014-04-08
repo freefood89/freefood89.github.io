@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{page.title}}</title>
-        <link rel="stylesheet" href="/css/default.css">
-        <link rel="stylesheet" href="/css/syntax.css">
-		<link rel="stylesheet" href="/css/layout.css">
-        <script src="jquery.js"></script>
-    </head>
-	<body>
-	    <header id="top">
-	<div id="container">
+<head>
+<meta charset="utf-8">
+<title>{{page.title}}</title>
+<link rel="stylesheet" href="/css/default.css">
+<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/layout.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<header>
+<div id="container">
+<hgroup class="title">
+<h1>robo-nut blog</h1>
+</hgroup>
+</div>
+</header>
+{% include menu_bar.html %}
 
-    <hgroup class="title">
-        <h1>robo-nut blog</h1>
-    </hgroup>
-	</div>
-    </header>
-	{% include menu_bar.html %}
-	
-    <section id="container">
-		{{content}}
-	</section>
-	<div id="container">
-        {% include footer_menu.html %}
-	</div>
-	<script>
-	$(document).ready(function() {
-	    var aboveHeight = $('header').outerHeight();
-	    $(window).scroll(function(){
-	        if ($(window).scrollTop() > aboveHeight){
-	            $('nav').addClass('fixed').css('top','0').next().css('padding-top','50px');
-				alert(navHeight);
-			} else {
-				$('nav').removeClass('fixed').next().css('padding-top','0');
-	        }
-	    });
+<section>
+<div id="container">
+{{content}}
+<div id="container">
+</section>
+<div id="container">
+{% include footer_menu.html %}
+</div>
+
+<script>
+$(document).ready(function() {
+	var aboveHeight = $('header').outerHeight();
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > aboveHeight){
+			$('nav').addClass('fixed').css('top','0').next().css('padding-top','50px');
+		} else {
+			$('nav').removeClass('fixed').next().css('padding-top','0');
+		}
 	});
-	</script>
-	</body>
+});
+</script>
+</body>
 </html>

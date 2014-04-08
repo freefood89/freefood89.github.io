@@ -1,24 +1,14 @@
-h1, p {
-    margin: 0px;
-    font-family:"Helvetica";
-    text-align: left;
-	margin-bottom: 10px;
-}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	font-family:"Helvetica";
+	text-align:left;}
 
-p.nav{
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
+h2{color: #2288bb;}
 
-#header{
-    background: #222;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
+#date{
+	color: gray;
+	font-size: 14px;}
+	
 .title{
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
+	color: white;
 }
