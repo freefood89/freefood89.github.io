@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{{page.title}}</title>
+        <title>my first post</title>
         <link rel="stylesheet" href="/css/default.css">
         <link rel="stylesheet" href="/css/syntax.css">
 		<link rel="stylesheet" href="/css/layout.css">
@@ -17,13 +17,32 @@
     </hgroup>
 	</div>
     </header>
-	{% include menu_bar.html %}
+	<nav class="section_nav"><div id="container">
+		<ul class="top_level">
+			<li><a href="/">Blog</a></li>
+			<li><a href="/about.html">About</a></li>
+		</ul>
+</div></nav>
+
 	
     <section id="container">
-		{{content}}
+		<h1>my first post</h1>
+<p>This is my first post</p>
+
+<ul>
+<li>1</li>
+
+<li>2</li>
+
+<li>3</li>
+</ul>
+<p>written by rentaro</p>
+
 	</section>
 	<div id="container">
-        {% include footer_menu.html %}
+        <hr>
+<p><a href="/">Home</a> | <a href="/about.html">About</a></p>
+
 	</div>
 	<script>
 	$(document).ready(function() {

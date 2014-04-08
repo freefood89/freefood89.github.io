@@ -1,0 +1,48 @@
+nav{
+	display: block;
+	background: black;
+	width: 100%;}
+	
+body{
+	margin: 0;
+	padding: 0;}
+
+section, article{
+	width:100%;
+	margin-top: 10px;}
+	
+#top{
+	background: #222;
+	padding-top: 100px;
+	padding-bottom: 30px;}
+
+#container{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;}
+	
+.post{
+	margin-bottom: 10px;
+}
+	
+.fixed{ position:fixed;}
+
+ul.top_level{
+	margin: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ul.top_level li{
+	display: inline;
+}
+ul.top_level li a{
+	color: white;
+	font-family:"Helvetica";
+	height: 100%;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+}

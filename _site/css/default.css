@@ -1,3 +1,24 @@
-h1 {
-    color: red;
+h1, p {
+    margin: 0px;
+    font-family:"Helvetica";
+    text-align: left;
+	margin-bottom: 10px;
+}
+
+p.nav{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#header{
+    background: #222;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
