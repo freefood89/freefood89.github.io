@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About HFT Frontrunning
+title: Learning About HFT
 author: Rentaro
 ---
 
