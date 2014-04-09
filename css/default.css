@@ -28,6 +28,11 @@ ul li{
 	font-family:"Helvetica";
 }
 
+ol li{
+	font-size: 18px;
+	font-family:"Helvetica";
+}
+
 .title{
 	color: white;
 }
