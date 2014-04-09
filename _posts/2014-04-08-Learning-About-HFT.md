@@ -4,7 +4,7 @@ title: Learning About HFT
 author: Rentaro
 ---
 
-With the enormous media response to the new book "Flash Boys" by Michael Lewis, I had to postpone my other books to start reading "Flash Boys" before I saw too many spoilers. The book explains the practices of high frequency traders (HFT) and how it has changed the landscape of Wallstreet literally and figuratively. So far the book is entertaining and really shines a light on many of the odd things I've seen in the market.
+With the media response to the new book "Flash Boys" by Michael Lewis, I had to postpone my other books to start reading "Flash Boys" before I saw too many spoilers. The book explains the practices of high frequency traders (HFT) and how it has changed the landscape of Wallstreet literally and figuratively. So far the book is entertaining and really shines a light on many of the odd things I've seen in the market.
 
 ###The Gist
 HFTs are carving up mountains and office space to get access to the ticker symbols, their bids and offers before anyone else. When your stock order isn't fulfilled by just one exchange, they would exploit their access to fast information to frontrun you in the other exchanges. Frontrunning is when someone buys up what you order before you and sells it to you for a higher price. What's worse, HFTs create situations for orders to rarely be fulfilled by one exchange so they can frontrun trades everytime. I admit I did not know that HFTs were frontrunning trades. However, I definitely noticed changes in the market. 
