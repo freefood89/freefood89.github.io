@@ -1,7 +1,7 @@
 ---
 layout: post
 title: my second post
-author: rentaro
+author: Rentaro
 ---
 
 This is my second post

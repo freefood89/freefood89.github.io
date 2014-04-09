@@ -3,11 +3,20 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family:"Helvetica";
 	text-align:left;}
 
-h2{color: #2288bb;}
-
-#date{
+p{
+	font-size: 18px;
+	padding-bottom: 15px;}
+	
+h2{
+	color: #2288bb;
+	font-size: 28px;}
+h3{
+	font-size: 24px;
+	padding-bottom: 5px;}
+h4{
 	color: gray;
-	font-size: 14px;}
+	font-size: 14px;
+	padding-bottom: 5px;}
 	
 .title{
 	color: white;
