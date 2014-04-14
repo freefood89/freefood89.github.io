@@ -1,17 +1,18 @@
 h1, h2, h3, h4, h5, h6, p{
 	margin: 0;
-	font-family:"Helvetica";
+	font-family:"Open Sans", sans-serif;
 	text-align:left;}
 
 p{
+	text-align: justify;
 	font-size: 18px;
 	padding-bottom: 15px;}
 	
 h2{
-	color: #2288bb;
-	font-size: 28px;
+	font-size: 48px;
 	text-decoration: none;
-	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 h3 a{
 	color: black;
@@ -21,7 +22,7 @@ h3 a{
 h4{
 	color: gray;
 	font-size: 14px;
-	padding-bottom: 5px;}
+	margin-bottom: 10px;}
 
 ul li{
 	font-size: 18px;
