@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Analog IC Design as a Hobby</title>
+<link rel="stylesheet" href="/css/default.css">
+<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" media="handheld" href="/css/layout-mobile.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<header>
+<div id="container">
+<hgroup class="title">
+<h1>robo-nut blog</h1>
+</hgroup>
+</div>
+</header>
+<nav class="section_nav"><div id="container">
+		<ul class="top_level">
+			<li><a href="/">Blog</a></li>
+			<li><a href="/about.html">About</a></li>
+		</ul>
+</div></nav>
+
+
+<section>
+<div id="container">
+<div id="postbox">
+<h2>Analog IC Design as a Hobby</h2>
+<h4>by Rentaro - 19 April 2014</h4>
+<p>I may have finally figured out how to tape-out my own analog IC designs without draining my bank account. Although I did poorly in analog IC design at school, I’ve wanted to know what it would take to start a company that designs analog ICs and RFICs. This <a href="http://www.edn.com/electronics-blogs/anablog/4309610/Analog-IC-design-on-the-cheap">super old article</a> on EDN Network is very short and lacks detail, but it essentially shows how CAD software is unneccessary and fabrication can be cheaper using a service like <a href="http://www.mosis.com/">MOSIS</a>.</p>
+
+<p>CAD, or computer aided design, tools usually comes with a simulator and layout tool. The simulator is important because they help engineers simulate complex circuits with some level of accuracy before spending lots of money to fabricate a prototype. The layout tool can check if a design complies with the fabrication equipment’s design rules. CAD can save lots of time and money by eliminating design iterations. After having depended on Cadence in school, a super expensive CAD suite, I didn’t even stop to think that it’s not really a neccessity. The cost for something like what I used in school can run well over millions per year.</p>
+
+<p>After some more digging and thinking I found that LTSpice, a free SPICE simulator I’ve played with, actually can run BSIM3 models. BSIM3 is a highly parametric transistor model sufficiently accurate for analog IC simulation. It’s actually the same model I used in school through Cadence. Simulating my designs would be a matter of finding the model parameters for the fabrication technology. </p>
+
+<p>Once I found the article I did some more digging and found that LTSpice IV, a free circuit simulator</p>
+
+
+
+
+</div>
+<div id="container">
+</section>
+<div id="container">
+<hr>
+<p><a href="/">Home</a> | <a href="/about.html">About</a></p>
+
+</div>
+
+<script>
+$(document).ready(function() {
+	var aboveHeight = $('header').outerHeight();
+	$(window).scroll(function(){
+		if ($(window).scrollTop() > aboveHeight){
+			$('nav').addClass('fixed').css('top','0').next().css('padding-top','50px');
+		} else {
+			$('nav').removeClass('fixed').next().css('padding-top','0');
+		}
+	});
+});
+</script>
+</body>
+</html>
