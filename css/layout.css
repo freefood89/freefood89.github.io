@@ -52,7 +52,7 @@ ul.top_level li a{
 	text-transform: uppercase;
 }
 
-@media handheld {
+@media only screen (max-width : 320px){
     #container{
         padding-left: 15px;
         padding-right: 15px;
