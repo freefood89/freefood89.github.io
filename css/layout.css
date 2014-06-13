@@ -1,15 +1,12 @@
 nav{
 	display: block;
-	background: black;
-	width: 700px;}
+	background: black;}
 	
 body{
-	max-width: 700px;
-        margin: auto;
+        margin: 0px;
 	padding: 0;}
 
 section, article{
-	width:100%;
 	margin-top: 10px;}
 img{	width:100%;}
 
@@ -33,8 +30,7 @@ header{
 .fixed{ position:fixed;}
 
 .page{
-    max-width: 80em;
-    
+    display: block;
 }
 
 ul.top_level{
@@ -56,13 +52,34 @@ ul.top_level li a{
 	text-transform: uppercase;
 }
 
+@media (min-width : 32em){
+    section {
+        width: 100%;
+        margin-left: 0%;
+        background: red;
+} 
+}
+
 @media (min-width : 45em){
+    section {
+        width: 60%;
+        margin-left: 20%;
+        background: gray;
+        margin-top: 10px;
+    }
 }
 @media (min-width : 80em){
     #container{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
+    
+    section{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 10px;
+        background: red;    
+}
     #postbox{
     }
 }
