@@ -14,7 +14,6 @@ section, article{
 img{	width:100%;}
 
 header{
-	background: #222;
 	padding-top: 100px;
 	padding-bottom: 30px;}
 
@@ -32,6 +31,11 @@ header{
 }
 	
 .fixed{ position:fixed;}
+
+.page{
+    max-width: 80em;
+    
+}
 
 ul.top_level{
 	margin: 0px;
@@ -52,7 +56,9 @@ ul.top_level li a{
 	text-transform: uppercase;
 }
 
-@media (min-width : 700px) and handheld{
+@media (min-width : 45em){
+}
+@media (min-width : 80em){
     #container{
         padding-left: 15px;
         padding-right: 15px;

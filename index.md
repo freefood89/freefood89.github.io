@@ -10,5 +10,3 @@ title: my first jekyll site
 <h4>({{post.date | date: "%-d %B %Y"}})</h4>
 {% endfor %}
 
-
-![food](/food.jpg)
