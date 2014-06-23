@@ -1,37 +1,38 @@
 nav{
 	display: block;
-	background: black;
-	width: 100%;}
+	background: black;}
 	
 body{
-	margin: 0;
+        margin: 0px;
 	padding: 0;}
 
 section, article{
-	width:100%;
 	margin-top: 10px;}
 img{	width:100%;}
 
 header{
-	background: #222;
+        background: #222;
 	padding-top: 100px;
 	padding-bottom: 30px;}
 
 #container{
-	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;}
-#postbox{
+.postbox{
 	max-width: 700px;
-	
+	font-size: medium;
 }	
 .post{
 	margin-bottom: 10px;
 }
 	
 .fixed{ position:fixed;}
+
+.page{
+    display: block;
+}
 
 ul.top_level{
 	margin: 0px;
@@ -50,4 +51,31 @@ ul.top_level li a{
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+@media (min-width : 32em){
+.postbox p{font-size:1rem;}
+.postbox h1{font-size:2rem;}
+.postbox h2{font-size:1.5rem;}
+.postbox h3{font-size:1.33rem;}
+.wide{margin:0%; padding-left:5%; padding-right:5%; width:90%}
+.middle{width:90%; margin-left: 5%;} 
+}
+
+@media (min-width : 45em){
+.postbox p{font-size:1.2rem;}
+.postbox h1{font-size:2.4rem;}
+.postbox h2{font-size:1.5rem;}
+.postbox h3{font-size:1.6rem;}
+.wide{margin:0%; padding-left:10%; padding-right:10%; width:80%;}
+.middle{width:80%; margin-left:10%;}
+}
+
+@media (min-width : 80em){
+.postbox p{font-size:1.5rem;}
+.postbox h1{font-size:3rem;}
+.postbox h2{font-size:1.5rem;}
+.postbox h3{font-size:2rem;}
+.wide{margin:0%; padding-left:15%; padding-right:15%; width:70%;}
+.middle{width:70%; margin-left:15%;}
 }

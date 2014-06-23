@@ -11,14 +11,15 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
-<header>
+<div class="page">
+<header class="wide">
 <div id="container">
 <hgroup class="title">
 <h1>robo-nut blog</h1>
 </hgroup>
 </div>
 </header>
-<nav class="section_nav"><div id="container">
+<nav class="wide"><div id="container">
 		<ul class="top_level">
 			<li><a href="/">Blog</a></li>
 			<li><a href="/about.html">About</a></li>
@@ -26,10 +27,10 @@
 </div></nav>
 
 
-<section>
+<section class="middle">
 <div id="container">
-<div id="postbox">
-<h2>Dual H-bridge Board</h2>
+<div class="postbox">
+<h1>Dual H-bridge Board</h1>
 <h4>by Rentaro - 12 July 2011</h4>
 <p>Below is the result of one full week of thinking, layout, and planning. These H-bridges are made to control two small dc motors. The H-bridge can take up to a 500 mA load. This board will probably be integrated into my scrapbot. The simulation for this circuit can be found <a href="/2011/06/30/H-bridge-simulation.html">here</a>.</p>
 
@@ -49,7 +50,7 @@
 <p><a href="/">Home</a> | <a href="/about.html">About</a></p>
 
 </div>
-
+</div>
 <script>
 $(document).ready(function() {
 	var aboveHeight = $('header').outerHeight();

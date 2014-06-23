@@ -11,14 +11,15 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
-<header>
+<div class="page">
+<header class="wide">
 <div id="container">
 <hgroup class="title">
 <h1>robo-nut blog</h1>
 </hgroup>
 </div>
 </header>
-<nav class="section_nav"><div id="container">
+<nav class="wide"><div id="container">
 		<ul class="top_level">
 			<li><a href="/">Blog</a></li>
 			<li><a href="/about.html">About</a></li>
@@ -26,23 +27,23 @@
 </div></nav>
 
 
-<section>
+<section class="middle">
 <div id="container">
-<div id="postbox">
-<h2>My First Android App</h2>
+<div class="postbox">
+<h1>My First Android App</h1>
 <h4>by Rentaro - 20 August 2013</h4>
-<p>Just built my first android app following <a href="http://developer.android.com/training/basics/firstapp/index.html">android’s official tutorial</a>. I’ve been pretty frustrated by the lack of Kindle apps so I decided I will build them myself. Specifically, I am frustrated most by Bloomberg’s android smartphone and kindle fire apps. They are awful..</p>
+<p>Just built my first android app following <a href="http://developer.android.com/training/basics/firstapp/index.html">android&#8217;s official tutorial</a>. I&#8217;ve been pretty frustrated by the lack of Kindle apps so I decided I will build them myself. Specifically, I am frustrated most by Bloomberg&#8217;s android smartphone and kindle fire apps. They are awful..</p>
 
-<p>The tutorial itself felt kind of lacking. Given the ridiculous amount of app developers out there I’d assumed that the tutorial would be much easier to follow, but it does require programming experience. In fact it requires experience learning a new programming language or API. I’m no expert in either, but I guess I knew enough to get through the first step of the tutorial. Here are some interesting takeaways from my first step:</p>
+<p>The tutorial itself felt kind of lacking. Given the ridiculous amount of app developers out there I&#8217;d assumed that the tutorial would be much easier to follow, but it does require programming experience. In fact it requires experience learning a new programming language or API. I&#8217;m no expert in either, but I guess I knew enough to get through the first step of the tutorial. Here are some interesting takeaways from my first step:</p>
 
 <ol>
-  <li>All ‘Activity’s must be declared in the manifest</li>
-  <li>Every ‘Activity’ is invoked by an ‘Intent’</li>
-  <li>‘Activity’s can get its invoker using getIntent()</li>
+  <li>All &#8216;Activity&#8217;s must be declared in the manifest</li>
+  <li>Every &#8216;Activity&#8217; is invoked by an &#8216;Intent&#8217;</li>
+  <li>&#8216;Activity&#8217;s can get its invoker using getIntent()</li>
   <li>Most programming is done within the framework provided. My job as an app builder is to work on the actual content</li>
 </ol>
 
-<p>I’m not sure how long this will last, but hopefully my efforts will be fruitful.</p>
+<p>I&#8217;m not sure how long this will last, but hopefully my efforts will be fruitful.</p>
 
 
 
@@ -54,7 +55,7 @@
 <p><a href="/">Home</a> | <a href="/about.html">About</a></p>
 
 </div>
-
+</div>
 <script>
 $(document).ready(function() {
 	var aboveHeight = $('header').outerHeight();
