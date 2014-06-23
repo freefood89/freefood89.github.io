@@ -3,7 +3,7 @@
 layout: default
 title: my first jekyll site
 ---
-## Blog Posts
+# Blog Posts
 
 {% for post in site.posts %}
 ###[{{post.title}}]({{post.url}})
