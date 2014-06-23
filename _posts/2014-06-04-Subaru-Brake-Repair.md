@@ -6,7 +6,7 @@ author: Rentaro
 
 With my wallet drying up between school and my first full-time job, I now "fix" my 2005 Subaru Impreza myself. My most recent car woe, brake rotor (the brake disk) warping, causes the car to rumble when braking and also makes passangers like my girlfriend nervous. This poses a danger as it makes braking more difficult. To fix this issue I ordered front brake rotors [Power Stop KOE1124](http://www.amazon.com/gp/product/B00AN5SDF6/ref=oh_details_o00_s01_i00) on amazon, which also came with break pads. 
 
-###Day 1: Front Brake Repair
+##Day 1: Front Brake Repair
 
 New pads and rotors in hand I set out to fix my front brakes. I jacked up the car with the jack that came with the car and attempted to remove the tire. I had no luck loosening the lug nuts. The internet told me that all I need is a metal pipe to extend my lever arm, so I got a 6 foot long steel conduit from Home Depot to help remove the tires.
 
@@ -25,7 +25,7 @@ I then moved on to replacing the second brake, during which I sheared the screw 
 
 The friendly people at Advanced Auto Parts also gave some tips essential to the brake repair. One tip was that the oily coating on the rotors that prevent rusting must be cleaned off prior to installation. Another was that I should use a c-clamp to push in the brake pistons so that the new pads and rotors can fit. This unfotunately meant that I would have to redo the first brake.
 
-###Day 2: Front Brake Repair Continued
+##Day 2: Front Brake Repair Continued
 
 The next day I skateboarded again to Advanced Auto Parts and picked up the caliper guide pins and screws I ordered. I lubricated and installed the new caliper guide pins, placed the new pads, used the c-clamp and old pads to widen the caliper, and put it all together completing the second brake. I didn't forget to clean off that oily coating on new rotors with rotor cleaning wipes I also picked up at the store. 
 
@@ -33,7 +33,7 @@ The next day I skateboarded again to Advanced Auto Parts and picked up the calip
 
 Done with replacing my front brakes I test drove the car in excitement. D'oh! The rear brake rotors are warped too. I can tell it's the rear brakes because the car doesn't rattle when I brake hard; during hard stops you rely mostly on front brakes. Luckily advanced auto parts has the right rear brake rotors in stock. However, it's already very late and so fixing the rear end will have to wait till tomorrow.
 
-###Day 3: Rear Brake Repair
+##Day 3: Rear Brake Repair
 
 The next morning I drove to Advanced Auto Parts with my car still rumbling and squeaking with every turn of the wheel. I bought a set of new rear rotors and set out to replace the old ones.
 
@@ -47,7 +47,7 @@ Sure enough, the rotor popped off and I then simply replaced it with the new Wea
 
 The car now brakes without any rumbling.
 
-###Bonus
+##Bonus
 
 Comparing the old and new rear rotors side by side it was clear as day that the rear needed replacement more than the front. The car first started rumbling after I left the car parked in humid Baltimore for one month with the parking brakes on. The already rusty rotors must have deteriorated further with humidity. The photos below are of the front and rear rotors respectively.
 

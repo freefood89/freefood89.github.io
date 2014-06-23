@@ -8,7 +8,7 @@ Several weeks ago I set out to build my own DIY reflow oven so I can start worki
 
 <embed type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="100%" height="400" flashvars="host=picasaweb.google.com&captions=1&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F101968504143451210803%2Falbumid%2F5998668131003357201%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCJ2jtMHajN3aRQ%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer">
 
-###Assembling Bill of Materials
+##Assembling Bill of Materials
 
 I'm building the DIY reflow oven based on [this instructable](http://www.instructables.com/id/DIY-Soldering-Reflow-Oven/?ALLSTEPS). In order to make the project more likely to complete in a reasonable amount of time I decided to rely on breakout boards and prebuilt circuits. I set out by first assembling a bill of materials to estimate the cost of this project. The bill of materials, which comes out to about $100, includes:
 
@@ -18,13 +18,13 @@ I'm building the DIY reflow oven based on [this instructable](http://www.instruc
 - [Solid State Relay](http://www.ia.omron.com/data_pdf/data_sheet/g3ne_ds_csm166.pdf)
 - [Simple toaster oven](http://www.amazon.com/gp/product/B00AZSZYTO/ref=oh_details_o01_s00_i00?ie=UTF8&psc=1)
 
-###Testing the Thermocouple
+##Testing the Thermocouple
 
 Once I got my breakout board and thermocouple in the mail I put them together and ran the example Arduino code provided on [AdaFruit](http://learn.adafruit.com/thermocouple/wiring-the-thermocouple). It turns out that, as people have noticed, the thermocouples have incorrectly colored wires. This was easily fixed by reversing the wires. I also removed the heat shrink tubing on the tip of the sensor with a knife. The heat shrink is rated only up to 250 Celsius, which I think I will exceed.
 
 ![termocouple setup](https://lh3.googleusercontent.com/-OK2lGsDLJaw/U0xkapFBgOI/AAAAAAAADKI/LX6ia54M6QA/w755-h566-no/IMG_20140325_195535.jpg)
 
-###Rewiring the Oven 
+##Rewiring the Oven 
 To rewire the toaster oven I first had to take it apart. Not surprisingly, it was mostly empty inside. Since the modified oven will be functioning similarly to its original setup not much of the wiring needed modification.The hot wire was already connected to one end of both heating elements so I just connected the other end of the heating elements to terminal 1 of the SSR. I used a 2-male to 1-female connector from RadioShack to connect the heating elements to one terminal on the SSR. I connected Terminal 2 of the SSR to neutral to complete the circuit. I put 5V from my Arduino across terminals 3 and 4 to turn on the relay, creating a return path for current to pass through the heating elements. You can see that the toaster was successfully turned on.
 
 ![toaster on](https://lh3.googleusercontent.com/-bjFFAuQf6ag/Uz-M5BQ-2XI/AAAAAAAADEI/21n5D6RDSL8/w755-h566-no/IMG_20140404_220437.jpg)

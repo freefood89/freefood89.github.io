@@ -8,10 +8,10 @@ Back in February 2012 I decided to get involved in AMD again. A part of the reas
 
 Recently having hit new lows, I once again took up AMD because they still have vision and talent. People often invest based on current earnings and current news and overlook the fact that there is tremendous un-quantifiable value in the experience and talent of engineers. It doesn't take much more than talent and leadership with vision to turn a company around. It also makes sense that if an investor hopes to gain from share appreciation, that he or she would invest in its future and not the present.
 
-###Hiring Maids Rather than Surgeons
+##Hiring Maids Rather than Surgeons
 
 It was really by pure luck that I had bought the shares right before AMD's SeaMicro technology finally got certified as a reliable server product. Servers are the computers that are tasked with fetching media from storage (e.g. relaying you the facebook pic you clicked on) and/or performing computations (e.g. Google calculating the relevance of webpages when you search). With the rise of streaming media such as Hulu, Netflix, Youtube, and Amazon Instant Video the servers are increasingly only fetching data, a task so simple that typical server computers are way too powerful to be doing. It's like employing a surgeon to go on grocery runs, and I imagine that'd be expensive. Typical processors also have functionality that cost overhead electricity and produce heat. SeaMicro, on the other hand, is essentially a giant cluster of less capable processors. Since they're cheaper and produce less heat more can be packed together in the same amount of space. It's like hiring 100 maids rather than a couple surgeons to go on grocery runs. By delegating simple fetching tasks to higher multiples of less capable processors they are able to increase their serving capacity for potentially lower server cost and lower operating cost (electricity and cooling). It's pretty easy to see that this is a very disruptive product as internet traffic continues to see more streaming media. 
 
-###Company Outlook
+##Company Outlook
 
 Will this product save AMD? Probably not by itself. But, this definitely proves my point that talent and vision can really take companies places. I am expecting more progress to come in varying outlets other than their traditional gaming products, which has demonstrated it's not sustainable on its own. I hope that as people pay more attention to AMD again the share begin to rise.
