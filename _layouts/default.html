@@ -1,48 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>{{page.title}}</title>
-<link rel="stylesheet" href="/css/default.css">
-<link rel="stylesheet" href="/css/syntax.css">
-<link rel="stylesheet" href="/css/layout.css">
-<link rel="stylesheet" media="handheld" href="/css/layout-mobile.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-</head>
-<body>
-<div class="page">
-<header class="wide">
-<div id="container">
-<hgroup class="title">
-<h1>robo-nut blog</h1>
-</hgroup>
-</div>
-</header>
-{% include menu_bar.html %}
+<html>
 
-<section class="wide">
-<div id="container">
-<div class="postbox">
-{{content}}
-</div>
-<div id="container">
-</section>
-<div id="container">
-{% include footer_menu.html %}
-</div>
-</div>
-<script>
-$(document).ready(function() {
-	var aboveHeight = $('header').outerHeight();
-	$(window).scroll(function(){
-		if ($(window).scrollTop() > aboveHeight){
-			$('nav').addClass('fixed').css('top','0').next().css('padding-top','50px');
-		} else {
-			$('nav').removeClass('fixed').next().css('padding-top','0');
-		}
-	});
-});
-</script>
-</body>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>

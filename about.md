@@ -1,7 +1,7 @@
 ---
-# YAML Front Matter
-layout: default
-title: about this site
+layout: page
+title: About
+permalink: /about/
 ---
 
 ##about this site

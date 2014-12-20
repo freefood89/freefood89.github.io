@@ -1,2 +1,11 @@
-name: mySite
+# Site settings
+title: robo-nut blog
+# email: your-email@domain.com
+description: Welcome to my blog, where I showcase some of the random things I build.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: freefood89.github.io # the base hostname & protocol for your site
+twitter_username: freefood89
+github_username:  freefood89
+
+# Build settings
 markdown: kramdown
