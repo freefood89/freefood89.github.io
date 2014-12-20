@@ -31,6 +31,6 @@ while( disp.isNotDone()):
 {% endhighlight %}
 
 Checkout the results!
-![image]({{ site.url }}/images/2014-12-19-test1.png)
+![image]({{ site.url }}/img/2014-12-19-test1.png)
 
 
