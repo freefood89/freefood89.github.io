@@ -8,5 +8,5 @@ I always believed that to build an H-bridge I need to use FETs. I'm guessing tha
 
 Below are the results. You can see that the flyback diodes really do help protect by limiting the various potential differences to below their respective breakdown levels. The blue trace represents the input signal and the green trace is the voltage at one end of the inductor with respect to ground.
 
-![no flyback](/2011-06-30-noflyback.png)
-![with flyback](/2011-06-30-withflyback.png)
+![no flyback](/img/2011-06-30-noflyback.png)
+![with flyback](/img/2011-06-30-withflyback.png)
