@@ -4,7 +4,7 @@ title: Installing SimpleCV
 author: Rentaro
 ---
 
-Today I came across SimpleCV [(linked here)](http://simplecv.org/), which I discovered works very well with python. 
+Today I came across SimpleCV ([linked here](http://simplecv.org/)), which I discovered works very well with python. 
 
 I've known OpenCV for a while, but I've never had a good experience using it. I've tried several times in high school and then in college, when I opted to use Matlab's vision package instead. First off, I'm not too great at C++. It takes too much effort to do the simplest things. Second, the documentation for OpenCV is pretty bad in my opinion. I also find their documentation pretty hard to read.
 
