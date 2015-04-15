@@ -46,12 +46,12 @@ logger = logging.getLogger('root')
 ~~~ 
 some_script.py:
 
-```python
+~~~ python
 import config
 from config import logger
   
 logger.debug('It Works!')
-```
+~~~
 
 ##Thoughts Goind Forward
 At some point I should probably read the entire documentation for python, or at least the table of contents. Being a language I picked up entirely on my own I seem to only know things relevant to my personal projects.
