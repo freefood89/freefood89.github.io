@@ -27,7 +27,7 @@ project
 
 config.py:
 
-``` python
+```python
 import logging
 import argparse
 
@@ -46,7 +46,7 @@ logger = logging.getLogger('root')
 ```
 some_script.py:
 
-``` python
+```python
 import config
 from config import logger
   
