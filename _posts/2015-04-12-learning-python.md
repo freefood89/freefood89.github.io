@@ -4,7 +4,7 @@ title: Learning Python
 author: Rentaro
 ---
 
-I've come to a point where at least in my friend group I'm the python guy. Yet, I never feel like I know all of it because I keep learning new things
+I've come to a point where at least in my friend group I'm the python guy. Yet, I never feel like I know all of it because I keep learning new things:
 
 ### Yield
 A little while ago I came across [nvie's fantastic explanation of generators and iterables](http://nvie.com/posts/iterators-vs-generators/). I really hope that he never takes this page down. It introduced me to `yield`, which I find pretty cool and unique. I've converted some of my parsers to have generators, which can reduce the number of times you have to iterate over text inputs without changing your code structure.
@@ -23,9 +23,8 @@ I'm not entirely sure if this is any good or whether it already exits, but I've 
 
 ```
 /project
- some_script.py
- config.py
-  
+  some_script.py
+  config.py
 ```
 
 config.py:
