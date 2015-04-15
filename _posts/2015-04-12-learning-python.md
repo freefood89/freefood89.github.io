@@ -17,7 +17,7 @@ Within the same context I realized the need for [Logging](https://docs.python.or
 [Argparse](https://docs.python.org/3.4/library/argparse.html#module-argparse) is another cool and useful built-in library that I picked up as well; I wont have to manually parse command line arguments anymore, something I sadly admit I've been doing.
 
 ### Design Pattern using Logging and Argparse
-I'm not entirely sure if this is any good or whether it already exits, but I've come up with a nice project structure that controls logging via commandline args:
+I'm not entirely sure if this is any good or whether it already exits, but I've come up with a nice project structure that controls logging via commandline args based on what I saw in [Flask](http://flask.pocoo.org/)'s source code.
 
 ```
 project
