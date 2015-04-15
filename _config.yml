@@ -8,7 +8,4 @@ twitter_username: freefood89
 github_username:  freefood89
 
 # Build settings
-markdown: kramdown
-
-kramdown:
-  input: GFM
+markdown: redcarpet
