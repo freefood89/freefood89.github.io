@@ -22,8 +22,9 @@ Within the same context I realized the need for [Logging](https://docs.python.or
 I'm not entirely sure if this is any good or whether it already exits, but I've come up with a nice project structure that controls logging via commandline args:
 ```
 /project
-  some_script.py
-  config.py
+	some_script.py
+ 	config.py
+  
 ```
 
 config.py:
