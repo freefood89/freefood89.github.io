@@ -7,10 +7,10 @@ author: Rentaro
 I've come to a point where at least in my friend group I'm the python guy. Yet, I never feel like I know all of it because I keep learning new things
 
 ### Yield
-A little while ago I came across [nvie's fantastic explanation of generators and iterables](http://nvie.com/posts/iterators-vs-generators/). I really hope that he never takes this page down. It introduced me to ```yield```, which I find pretty cool and unique. I've converted some of my parsers to have generators, which can reduce the number of times you have to iterate over text inputs without changing your code structure.
+A little while ago I came across [nvie's fantastic explanation of generators and iterables](http://nvie.com/posts/iterators-vs-generators/). I really hope that he never takes this page down. It introduced me to `yield`, which I find pretty cool and unique. I've converted some of my parsers to have generators, which can reduce the number of times you have to iterate over text inputs without changing your code structure.
 
 ### Unittest
-Recently, I've been maintaining an API built for students at college hackathons and let's just say I've never felt I needed unit tests as much as I do now. After stupidly trying to ```pip install unittest``` for a little while I noticed that the documentation for [Unittest](https://docs.python.org/3.4/library/unittest.html) for it is on the python built-in libraries page. I found a cool [tutorial on unittest](http://pythontesting.net/framework/unittest/unittest-introduction/) by Brian Okken. I will definitely be using this write to help my first unit tests for python.
+Recently, I've been maintaining an API built for students at college hackathons and let's just say I've never felt I needed unit tests as much as I do now. After stupidly trying to `pip install unittest` for a little while I noticed that the documentation for [Unittest](https://docs.python.org/3.4/library/unittest.html) for it is on the python built-in libraries page. I found a cool [tutorial on unittest](http://pythontesting.net/framework/unittest/unittest-introduction/) by Brian Okken. I will definitely be using this write to help my first unit tests for python.
 
 ### Logging
 Within the same context I realized the need for [Logging](https://docs.python.org/3.4/library/logging.html), which also happens to be a built-in for python. This has even forced me to read python library source code since packages like [Flask](http://flask.pocoo.org/) require a custom logger setup (or perhaps they're following some pattern).
@@ -25,6 +25,7 @@ I'm not entirely sure if this is any good or whether it already exits, but I've 
   some_script.py
   config.py
 ```
+
 config.py:
 ```python
 import logging
