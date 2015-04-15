@@ -26,7 +26,7 @@ I'm not entirely sure if this is any good or whether it already exits, but I've 
   config.py
 ```
 config.py:
-``` python
+```python
 import logging
 import argparse
 
@@ -45,7 +45,7 @@ logger = logging.getLogger('root')
 ```
 
 some_script.py:
-``` python
+```python
 import config
 from config import logger
   
