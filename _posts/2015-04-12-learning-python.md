@@ -23,8 +23,8 @@ I'm not entirely sure if this is any good or whether it already exits, but I've 
 
 ```
 /project
-  some_script.py
-  config.py
+    some_script.py
+    config.py
 ```
 
 config.py:
