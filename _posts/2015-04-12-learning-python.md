@@ -27,7 +27,7 @@ project
 
 config.py:
 
-{% highlight python %}
+```python
 import logging
 import argparse
 
@@ -43,7 +43,7 @@ if args.log:
 	logging.basicConfig(level=numeric_level, format='%(levelname)s: %(message)s')
 logger = logging.getLogger('root')
 
-{% endhighlight %}
+```
 some_script.py:
 
 ```python
