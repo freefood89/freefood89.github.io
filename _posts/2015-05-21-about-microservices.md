@@ -23,3 +23,6 @@ Unfortunately, one may also encounter an issue in implementing OOP classes for t
 ##The Challenge of Deploying
 Without using a tool like docker managing all of the separate microservices processes become a nightmare. It's entirely impractical to have to manually start and stop many microservices processes and run them via tools like screen and tmux. It's also very hard to health check each of the microservices. A tool like Swarm or Consul are musts in managing such a system.
 
+##Closing Thoughts
+To me, these issues do not pose too much of a technical challenge. The difficulty in confronting these issues actually lie in their subjective nature. There really is more than one right solution, so it's difficult to have conviction in choosing any particular one. Especially with the indeterminate future state of projects, one can't do much better than searching the web or reading books, and perhaps trial and error.
+
