@@ -16,7 +16,7 @@ There are several solutions to this. One could have whatever's managing cluster 
 ##The Challenge of Business Models
 RESTful APIs CRUD (Create, Retrieve, Update, & Delete) "business models". In our case the models represent things like customers, accounts, bills, and such things relevant to a bank. In a microservices architecture managing implementations of these models can be painful. 
 
-For example, in situations in which one removes or renames a field in a business model, one may also need to modify every microservice that depends on this model. This is due to the fact that logic pertaining to the field may be embedded in multiple microservices. The challenge may even lie in keeping track of all the microservices that are dependent on this model. Ideally this situation can be avoided by planning around business models; however, many people will experience this challenge because they'll be migrating from a monolithic architecture. 
+For example, in situations in which one removes or renames a field in a business model, one may also need to modify every microservice that depends on this model. This is due to the fact that logic pertaining to the field may be embedded in multiple microservices. The challenge may even lie in keeping track of all the microservices that are dependent on this model. Ideally this situation can be avoided by planning around business models; however, many people will experience this challenge because they'll be migrating from an existing monolithic architecture. 
 
 Unfortunately, one may also encounter an issue in implementing OOP classes for these models in whatever language is used for each microservice. This can be time consuming and require additional work to maintain.
 
