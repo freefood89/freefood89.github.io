@@ -4,7 +4,7 @@ title: A Quick Note on Microservices
 author: Rentaro
 ---
 
-In a monolithic system, its technology stack is often limited to just one option (most likely to one I don't like). Services employing a microservices architecture, on the other hand, offers flexibility in technology choice as well as other advantages. These advantages come at some costs and challenges, some of which I've encountered and will be sharing here.
+A web service offered via a monolithic system has a technology stack often limited to just one option (most likely to one I don't like). Services employing a microservices architecture, on the other hand, offers flexibility in technology choice among other advantages. These advantages come at some costs and challenges; below I share some of those challenges I've encountered.
 
 To give context, I've been working with friends on a side project ever since we were hired into the same workplace. It started out as a simple MEAN stack project. However, seven months later the project has ballooned in complexity and participants; so, out of convenience and curiosity we piloted adopting a microservices architecture.
 
