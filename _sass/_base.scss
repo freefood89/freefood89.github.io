@@ -102,6 +102,23 @@ a {
     }
 }
 
+h1.heading{
+    font-weight: 400;
+}
+
+a.heading {
+    color: black;
+    text-decoration: none;
+
+    &:visited {
+        color: black;
+    }
+
+    &:hover {
+        color: black;
+        text-decoration: underline;
+    }
+}
 
 
 /**
