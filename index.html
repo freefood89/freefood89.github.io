@@ -7,13 +7,14 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     <div style="clear: both">
-    <h2 class="post-content" style="display: inline">
-      <a href="{{post.url}}">{{post.title}}</a>
+    <h2 class="post-content heading" style="display: inline">
+      <a class="heading" href="{{post.url}}">{{post.title}}</a>
+          <h6 style="color: gray; padding-bottom: 0px; margin-bottom: 0px;">
+    {{post.date | date: "%-d %B %Y"}}
+    </h6>
     </h2>
-    <p class="post-meta" style="display: inline">at ({{post.date | date: "%-d %B %Y"}})
-    </h4>
     </div>
-    <p id="excerpt" class="post-content">{{post.excerpt | strip_html}} <a id="excerpt" class="post-content" style="text-decoration: none" href="{{post.url}}">(read more)</a></p>
+    <p class="post-content">{{post.excerpt | strip_html}} <a id="excerpt" class="post-content" style="text-decoration: none" href="{{post.url}}">(read more)</a></p>
 
 
     {% endfor %}
