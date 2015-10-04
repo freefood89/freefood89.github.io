@@ -4,13 +4,13 @@ title: Migrating to a Microservices Architecture
 author: Rentaro
 ---
 
-There are two ways an organization achieves a microservice architectured web service. One way is by initial design: this involves thinking through service boundaries and logical groupings. The worse way, and also probably most common way, is by migration from a monolithic architecture.
+There are two ways an organization achieves a microservice architectured web service. One way is by initial design: this involves thinking through service boundaries and logical groupings. The worse and probably most common way, is by migration from a monolithic architecture.
 
 ## Some Pros and Cons
 
 Migrating from a monolithic to microservices architecture is terrible for many reasons. Splitting up existing functionality into separate source code repositories is difficult technologically and organizationally. Shifting from database centric thinking to API centric thinking may also twist your brain at first. You will likely need to build your build and deploy pipeline from the bottom up.
 
-The benefits may be worth the difficulty you face while migrating. The diversity in technology choice allows for better talent acquisition and more appropriate selection of tools to solve problems. Assuming that the service boundaries are well thought out, you'll see improved maintainability in shorter code with closer adherence to the single responsibility principle. However, I'll only explain the challenges I met since it's harder to have forsight into such things.
+The good new is that the achieved benefits may be worth the difficulty you face while migrating. The diversity in technology choice allows for better talent acquisition and more appropriate selection of tools to solve problems. Assuming that the service boundaries are well thought out, you'll see improved maintainability in shorter code with closer adherence to the single responsibility principle. However, I'll only explain the challenges I met since it's harder to have forsight into such things.
 
 ## Good Luck Migrating Code
 
@@ -22,7 +22,7 @@ Aside from the human challenges, you also have to figure out how to divide your 
 
 If you have a small developer pool, siloing can be a very dangerous unintended consequence of the flexibility you get from microservices. I experienced this issue first hand when a core developer created a rails app despite being the only ruby developer in the team. That developer made himself a bottleneck not only to the roll out of the rails app, but to releases of new features in other services.
 
-Siloing in itself can lead to more issues as well. It becomes much more challenging to standardize practices like how to productionize the app. System Administrators must publicize where to expect production environment variables and access credentials. Dev-Ops needs to be a philosophy ubiquitous to all developers.
+Siloing in itself can lead to more issues as well. It becomes much more challenging to standardize practices like how to productionize an app. System Administrators must publicize where to expect production environment variables and access credentials. Dev-Ops needs to become a prerequisite literacy for all developers.
 
 ## Shifting Mindsets 
 
