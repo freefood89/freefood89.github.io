@@ -28,7 +28,7 @@ Siloing in itself can lead to more issues as well. It becomes much more challeng
 
 How can it be that microservices should have their own databases? I initially could not accept this fact because I was stuck in what my colleague calls "database centric thinking". Done the right way,microservices should expose data and functionality to be consumed as a backend in a way that abstracts the databases. As the diagram below illustrates, microservices should be the backbone of your service.
 
-![diagram](img/2015-05-21-database-centric-thinking.png)
+![diagram](/img/2015-05-21-database-centric-thinking.png)
 
 When the microservices, rather than the databases, are used as the backbone of the application the need to choreograph database model changes across service boundaries disappears. In the design on the right, both microservice A and the backend microservice need to validate data against object models. This results in functionality duplication possibly across code written in different languages i.e. a maintenance nightmare.
 
@@ -38,7 +38,7 @@ And of course, to avoid all these issues your code will need significant refacto
 
 I believe that developers should maintain documentation alongside code. Requiring developers to maintain up-to-date documentation of their code separately from their code takes unsustainable amounts of nagging. But if each microservice is written in different languages and maintained in separate repositories, how do you create a unified developer portal for consumers of the microservices? Answer: standardize your documentation format and create the developer portal as an orchestrated service that consumes many microservices. I ended up using Swagger across my microservices and simply hardcoding the documentation endpoints into the portal.
 
-![diagram](img/2015-05-21-distributed-documentation.png)
+![diagram](/img/2015-05-21-distributed-documentation.png)
 
 How then does one maintain orchestration "logic" for pulling together all of the documentation? Afterall, if we have to update the documentation portal to include the new microservice, have we really solved the issue of having to nag developers to maintain multiple things? To be honest, I don't know. At least now from the developers perspective they only need to register their microservice once.
 
