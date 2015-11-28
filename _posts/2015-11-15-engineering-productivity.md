@@ -18,7 +18,7 @@ One of the most critical issues was that we were using SVN incorrectly. We'd bee
 
 This first issue was made exponentially worse by our lack of automated Unit Testing and Integration Testing. We constantly suspected each other of introducing bugs into the shared code base because we would not know about bugs until the tester got around to in another month.
 
-#### Applying Lessons Learned
+### Applying Lessons Learned
 
 Seeing the horrors of improper Source Code Management and nonexistent automation was very educational. Doing these the right way on my after-hours project at the same time and seeing its benifits was nothing short of revelational.
 
@@ -32,7 +32,7 @@ As a college-hire I was put through Agile training. At the time I shrugged it of
 
 We're all trying to make software engineering more partitionable like picking cotton and reaping wheat.
 
-#### Interfaces, Everywhere!
+### Interfaces, Everywhere!
 
 On a somewhat related note... in Object Oriented Programming, an Interface is "a common means for unrelated objects to communicate" ([Wikipedia](https://en.wikipedia.org/wiki/Protocol_(object-oriented_programming)), 2015). This has code reusability implications in OOP, but in project management it also serves as a contract of interconnection between two parts of code able to be used as a boundary for modularization. Because business logic is codified within Objects in OOP, interfaces readily serve as logical boundaries of work.
 
