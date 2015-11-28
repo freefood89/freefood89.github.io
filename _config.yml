@@ -9,3 +9,4 @@ github_username:  freefood89
 
 # Build settings
 markdown: redcarpet
+pygments: true
