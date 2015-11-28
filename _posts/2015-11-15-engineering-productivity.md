@@ -2,14 +2,11 @@
 layout: post
 title: Software Projects 
 author: Rentaro
-excerpt_separator: <!--more-->
 ---
 
-I've tried out being a software developer for a little over a year now.
+I've tried out being a software developer for just over a year now and I should reflect on my experiences.
 
 I spent my first year in an API development team using Java+Spring with hundreds of members while also quasi-managing my own API development team after hours. During the Spring I started to manage the cloud infrastructure of the after-hours project. Not having the proper automation infrastructure in place in my workplace, I was determined to do it the right way for this side project: everything from automated testing with Jenkins (with Mocha and NoseTests) to the automated deployment of containers to Amazons EC2 Container Service (ECS). Finally in July, I left my API team and joined a DevOps team to gain further experience in automating infrastructure.
-
-<!--more-->
 
 In the past year I've picked up "Project Phoenix" by Gene Kim and recently started reading Fred Brooks' "The Mythical Man Month". This is a reflection on the year with respect to lessons learned about software development work flow.
 
