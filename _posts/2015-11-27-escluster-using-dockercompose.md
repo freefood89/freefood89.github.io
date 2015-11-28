@@ -9,7 +9,7 @@ This is a short post on how to build an Elasticsearch cluster on your dev machin
 
 <!--more-->
 
-Maybe it's because I'm a noob, but this was a little harder than I thought. I had set the Docker network setting to "host" instead of the default value of "bridge":
+Maybe it's because I'm a noob, but this was a little harder than I thought. I had to set the Docker network setting to "host" instead of the default value of "bridge":
 
 ```yaml
 es1:
