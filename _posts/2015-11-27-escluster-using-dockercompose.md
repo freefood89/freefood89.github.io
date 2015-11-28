@@ -21,4 +21,6 @@ es2:
 
 Apparently, Zen Multicast uses UDP to find other Elasticsearch nodes on its own network interface, but Docker containers on the bridge network have their own addresses so the nodes can't find each other. From [this old github issue](https://github.com/docker/docker/issues/3043) it seems like Multicast on the bridge network isn't happening but, Using Zen Unicast as a workaround would require knowledge of the containes' IP addresses before they started. This would force me to start containers one by one, editing the elasticsearch.yml file as each container gets an IP address. I wasn't about to write a complicated container orchestrator or modified init script for Elasticsearch (a docker network equivalent of the [aws discovery plugin](https://github.com/elastic/elasticsearch-cloud-aws)).
 
-Luckily I stumbled across [this blog post](http://www.dasblinkenlichten.com/docker-networking-101-host-mode/) explaining what "--net host" does when using Docker and realized that if all the containers are on the same network interface (the host's) then Multicast will work. Well that was easy.
+Luckily I stumbled across [an explanation of "--net host"](http://www.dasblinkenlichten.com/docker-networking-101-host-mode/) and realized that if all the containers are on the same network interface (the host's) then Multicast will work. 
+
+Not sure why it took me so long to make it work..
