@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Software Projects 
+title: Software Project Management and Interfaces 
 author: Rentaro
 ---
 
