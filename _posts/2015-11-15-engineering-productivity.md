@@ -6,7 +6,7 @@ author: Rentaro
 
 I've had an interesting year and a bit of pretending to be a software developer. 
 
-I spent the first 10 months in an API development team using Java+Spring with hundreds of members. During that time I also quasi-managed my own after hours API development project, of which I set up the cloud infrastructure. Having struggled without proper source code management and infrastructure automation at my workplace I did it the right way for my side project: everything from automated testing with Jenkins (with Mocha and NoseTests) to the automated deployment of containers in Amazons EC2 Container Service (ECS).  Finally in July, I left my API team and joined a DevOps team to gain further experience in automating infrastructure.
+I spent the first 10 months in an API development team using Java+Spring with hundreds of members. During that time I also quasi-managed my own after hours API development project, of which I set up the cloud infrastructure for. Having struggled without proper source code management and infrastructure automation at my workplace I did it the right way for my side project: everything from automated testing with Jenkins (with Mocha and NoseTests) to the automated deployment of containers in Amazons EC2 Container Service (ECS).  Finally in July, I left my API team and joined a DevOps team to gain further experience in automating infrastructure.
 
 In the past year I've picked up "Project Phoenix" by Gene Kim and recently started reading Fred Brooks' "The Mythical Man Month". This is a reflection on the year with respect to lessons learned about software development work flow.
 
