@@ -4,7 +4,7 @@ title: Initial Thoughts on OnShape CAD
 author: Rentaro
 ---
 
-I recently visited my high school to check in with my robotics teacher. Aside from catching up he gave me a tour of all the amazing things being done at as early as the 6th grade level. Among such cool things I was introduced to [Onshape](https://www.onshape.com/), an in-browser 3D CAD tool. I've actually been needing to CAD up my next side project and I'm unconvinced whether SketchUp was the right tool so I gave Onshape a try.
+I recently visited my high school to check in with my robotics teacher. Aside from catching up he gave me a tour of all the amazing things being done at as early as the 6th grade level. Among such cool things I was introduced to [Onshape](https://www.onshape.com/), an in-browser 3D CAD tool. I've actually been needing to CAD up my next side project and so I gave Onshape a try.
 
 Surprisingly, without having gone through any tutorials and just clicking through the options I was able to make a silly cube within 30 minutes.
 
