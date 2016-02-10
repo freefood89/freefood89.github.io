@@ -68,7 +68,7 @@ Now all that's needed is to use the `cluster_name` of your cluster to start up L
 
     logstash -e 'input { stdin { } } output { elasticsearch{ action=>"index" cluster=>"my_cluster"} stdout {} }'
 
-Add log messages to elasticsearch simply by typing stuff into stdin (the terminal) after Logstash startup is completed.
+Add log messages to elasticsearch simply by typing stuff into stdin (the terminal) after Logstash startup is completed. Logstash will autodiscover your local instance of elasticsearch and ship the logs to it from stdin.
 
     Logstash startup completed
     hello
