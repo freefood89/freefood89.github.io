@@ -78,11 +78,11 @@ Add log messages to elasticsearch simply by typing stuff into stdin (the termina
     world
     2016-02-10T20:23:32.036Z a45e60ddc795 world
 
-Navigate to kibana (default url: localhost:9200), click the settings tab, and set it up to grab data from index logstash-*
+Navigate to kibana (default url: localhost:9200), click the settings tab, and set it up to grab data from index logstash-* and hit 'Create'
 
 ![setup kibana index](/img/2016-02-10-elk-tutorial-settings-tab.png)
 
-Then Navigate to the Visualize tab to create your graphs
+Then Navigate to the Visualize tab and select the bar graph option to create your graph. Below is an example; to replicate simply copy the chart parameters on the left menu and click the green play button.
 
 ![setup log visualization](/img/2016-02-10-elk-tutorial-visualize-tab.png)
 
