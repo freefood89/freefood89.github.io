@@ -4,9 +4,7 @@ title: Yet Another ELK Tutorial Part 1
 author: Rentaro
 ---
 
-Many others have blogged on how to get started with the ELK (Elasticsearch-Logstash-Kibana) log centralization stack. However, despite having read many parts of the documentation I still had issues understanding how it all worked.
-
-so I go over it in a way that would have been helpful for me.
+Many others have blogged on how to get started with the ELK (Elasticsearch-Logstash-Kibana) log centralization stack. However, despite having read many parts of the documentation I still had issues understanding how it all worked. I go over it in a way that I think would have been helpful for me.
 
 ## Introduction
 
@@ -48,7 +46,7 @@ Our first topology is the one covered in logstash's documentation, in which logs
 
 `stdin` -> `Logstash` -> `Elasticsearch` -> `Kibana`
 
-Next start Elasticsearch (Ubuntu: `service start elasticsearch`, OSX `elasticsearch`) and Kibana (Ubuntu: `service start kibana`, OSX `kibana`). Once you do this Kibana should autodiscover Elasticsearch running on the default port. Then, `curl localhost:9200` to get some basic info about your Elasticsearch process. You should get something like this:
+Next start Elasticsearch (Ubuntu: `service start elasticsearch`, OSX: `elasticsearch`) and Kibana (Ubuntu: `service start kibana`, OSX: `kibana`). Once you do this Kibana should autodiscover Elasticsearch running on the default port. Then, `curl localhost:9200` to get some basic info about your Elasticsearch process. You should get something like this:
 
 ```json
 {
